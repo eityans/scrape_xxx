@@ -1,7 +1,7 @@
 import urllib
 import configparser
 
-config = configparser.SafeConfigParser()
+config = configparser.ConfigParser()
 config.read('config.ini')
 url = config.get('general', 'url')
 
